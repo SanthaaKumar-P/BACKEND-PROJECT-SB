@@ -34,7 +34,7 @@ public class PatientController {
         Patient updatedPatient = patientService.updatePatient(patient, id);
 
         if (updatedPatient == null) {
-            // ✅ REQUIRED for Examly
+            
             return ResponseEntity.notFound().build();
         }
 
