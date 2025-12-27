@@ -10,8 +10,8 @@ public class Appointment {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Long doctorId;     // ✅ REQUIRED
-    private Long patientId;    // ✅ REQUIRED
+    private Long doctorId;     
+    private Long patientId;    
 
     private LocalDateTime appointmentTime;
     private String status;
