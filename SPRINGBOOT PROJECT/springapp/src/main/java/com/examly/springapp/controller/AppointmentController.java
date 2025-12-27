@@ -23,7 +23,7 @@ public class AppointmentController {
     @Autowired
     private AppointmentService appointmentService;
 
-    // POST → Day12_testAddAppointment ✅
+    // POST → Day12_testAddAppointment 
     @PostMapping
     public ResponseEntity<Appointment> addAppointment(
             @RequestBody(required = false) Appointment appointment) {
